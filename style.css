@@ -1,0 +1,22 @@
+.circle {
+  width: 240px;
+  height: 240px;
+  background: linear-gradient( blue, blue 49%, white 49%, white 51%, red 51% ); 
+  border-radius: 50%;
+  position: relative;
+  border-radius: 240px;
+  margin: 100px auto;
+  transform: scale(0.25);
+  transition: transform 3.0s ease-in-out;
+  /* Lägg till "transition: transform 0.7s ease-in-out;" här för att animera
+   * mellan default state och hover state på hover
+   */
+
+}
+
+
+.circle:hover {
+    transform: rotate(320deg);
+    transition: all 1.5s ease-in-out 1s;
+
+}
