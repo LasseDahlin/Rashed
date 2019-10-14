@@ -17,6 +17,6 @@
 
 .circle:hover {
     transform: rotate(320deg);
-    transition: all 1.5s ease-in-out 1s;
+    transition: all 2.5s ease-in-out 1s;
 
 }
